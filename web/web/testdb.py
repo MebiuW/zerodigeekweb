@@ -33,6 +33,6 @@ def querydb(request):
 
     # 输出所有数据
     for var in list:
-        response1 += var.name + " "
+        response1 += var.title + " "
     response = response1
     return HttpResponse("<p>" + response + "</p>")
