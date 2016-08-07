@@ -26,7 +26,7 @@ def querydb(request):
     response3 = Article.objects.get(id=1)
 
     # 限制返回的数据 相当于 SQL 中的 OFFSET 0 LIMIT 2;
-    Test.objects.order_by('name')[0:2]
+    Article.objects.order_by('name')[0:2]
 
     # 数据排序
     Article.objects.order_by("title")
