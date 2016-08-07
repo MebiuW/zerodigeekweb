@@ -16,8 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from web.view import hello
+from web.testdb import insertdb
+from web.testdb import querydb
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello/', hello),
+    url(r'^insert/', insertdb),
+    url(r'^query/', querydb),
 ]
