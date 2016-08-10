@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'web.wsgi.application'
 #     }
 # }
 
+STATIC_ROOT = '/home/ubuntu/django/webstatic/'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
