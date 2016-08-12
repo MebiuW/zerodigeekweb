@@ -24,4 +24,5 @@ urlpatterns = [
     url(r'^hello/', hello),
     url(r'^insert/', insertdb),
     url(r'^query/', querydb),
+
 ]
