@@ -18,6 +18,7 @@ from django.contrib import admin
 from web.view import hello
 from web.testdb import insertdb
 from web.testdb import querydb
+from django.conf.urls import include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
