@@ -139,7 +139,7 @@ STATIC_URL = '/static/'
 
 CKEDITOR_CONFIGS = {
     'awesome_ckeditor': {
-        'toolbar': 'Basic',
+        'toolbar': 'full',
     },
 }
 MEDIA_URL = "/home/ubuntu/django/media/"
