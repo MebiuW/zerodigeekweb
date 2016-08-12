@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ArticleModel',
     'ckeditor',
+    'OnlineEditorModel',
 ]
 
 MIDDLEWARE_CLASSES = [
