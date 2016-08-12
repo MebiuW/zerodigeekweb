@@ -1,5 +1,5 @@
 from django.contrib import admin
-from models import OnlineEditorModel
+from web.OnlineEditor.models import OnlineEditorModel
 
 # Register your models here.
 admin.site.register(OnlineEditorModel)
