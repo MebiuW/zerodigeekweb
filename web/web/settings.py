@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'OnlineEditor',
     'ckeditor_uploader',
+    'south',
 ]
 
 MIDDLEWARE_CLASSES = [
