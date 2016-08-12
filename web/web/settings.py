@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'OnlineEditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -95,9 +96,7 @@ DATABASES = {
     }
 }
 
-MEDIA_URL = "/home/ubuntu/django/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-CKEDITOR_UPLOAD_PATH = "article_images"
+
 
 
 # Password validation
@@ -143,5 +142,8 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Basic',
     },
 }
+MEDIA_URL = "/home/ubuntu/django/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+CKEDITOR_UPLOAD_PATH = "/home/ubuntu/django/uploads/"
 
 CKEDITOR_JQUERY_URL = '//cdn.bootcss.com/jquery/1.11.3/jquery.min.js'

@@ -3,4 +3,4 @@ from ckeditor.fields import RichTextField
 
 # Create your models here.
 class OnlineEditorModel(models.Model):
-    content = RichTextField()
+    content = RichTextField(config_name='awesome_ckeditor')
