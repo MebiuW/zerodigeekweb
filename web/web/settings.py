@@ -143,3 +143,5 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Basic',
     },
 }
+
+CKEDITOR_JQUERY_URL = '//cdn.bootcss.com/jquery/1.11.3/jquery.min.js'
