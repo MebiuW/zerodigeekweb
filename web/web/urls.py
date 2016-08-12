@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^hello/', hello),
     url(r'^insert/', insertdb),
     url(r'^query/', querydb),
+    (r'^ckeditor/', include('ckeditor_uploader.urls')),
 
 ]
