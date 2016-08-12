@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'web.wsgi.application'
 #     }
 # }
 
-STATIC_ROOT = '/home/ubuntu/django/webstatic/'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -137,6 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/home/ubuntu/django/webstatic/'
 CKEDITOR_CONFIGS = {
     'awesome_ckeditor': {
         'toolbar': 'full',
