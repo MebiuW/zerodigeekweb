@@ -1,6 +1,5 @@
 from django.db import models
 from ckeditor.fields import RichTextField
-from ckeditor.fields import U
 
 # Create your models here.
 class OnlineEditorModel(models.Model):
