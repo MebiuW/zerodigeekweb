@@ -17,10 +17,13 @@ from django.conf.urls import url
 from django.contrib import admin
 from web.view import hello
 from django.conf.urls import include
+from cms.views import show_list
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello/', hello),
+    url(r'^list/', show_list()),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+
 
 ]
