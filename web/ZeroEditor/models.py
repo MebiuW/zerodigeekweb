@@ -2,7 +2,7 @@ from django.db import models
 from ckeditor.fields import RichTextField
 
 # Create your models here.
-class OnlineEditorModel(models.Model):
+class ArticlesModel(models.Model):
     title = models.CharField(max_length=64)
     source_type = models.IntegerField(default=1) #0 自动 1 原创 2转发 3 授权转发 4 未授权
     content = RichTextField(config_name='awesome_ckeditor')

@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class OnlineeditorConfig(AppConfig):
-    name = 'OnlineEditor'
+    name = 'ZeroEditor'
