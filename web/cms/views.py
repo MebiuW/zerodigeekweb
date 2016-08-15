@@ -4,5 +4,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def show_list(request):
-    data = ArticlesModel.objects.all().values()
+    data = ArticlesModel.objects.all()
     return render(request,'article/list.html',{'articles':data})
