@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 def show_list(request):
     data = ArticlesModel.objects.all().values()
-    return HttpResponse(data)
+    return render(request,'article/list.html',{'pages':data})
