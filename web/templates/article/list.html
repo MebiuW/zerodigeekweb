@@ -23,10 +23,11 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">{{ item.title }}</h3>
-                </div>
                 <div class="panel-body">
+                    <h3>{{ item.title }}
+                        <small>作者：{{ item.author }}</small>
+                        <small>发表于：{{ item.create_time }}</small>
+                    </h3>
                     <img src="{{ item.cover_img }}" alt="..." class="img-rounded" width="128px" height="128px">
                     Panel content
                 </div>
