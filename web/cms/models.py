@@ -12,4 +12,5 @@ class ArticlesModel(models.Model):
     author_url = models.URLField()
     author_email = models.EmailField()
     page_views = models.IntegerField(default=0)
+    cover_img = models.URLField()
 
